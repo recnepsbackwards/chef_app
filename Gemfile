@@ -45,3 +45,14 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
+
+group :test do
+  gem 'capybara'
+  gem 'rspec-example_steps'
+  gem 'launchy'
+  gem 'selenium-webdriver'
+end
